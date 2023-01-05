@@ -30,12 +30,8 @@ public class Book  {
 
     @Override
     public String toString() {
-        return "Автор - " + author.getName() + author.getPatronymic() + author.getSurname() + "; " + "Название книги - " + this.title + "; " + "Год издания - " + this.publishedYear + ".";
-
-
+        return this.author + "; " + "Название книги - " + this.title + "; " + "Год издания - " + this.publishedYear + ".";
     }
-
-
 
     @Override
     public boolean equals(Object o) {
